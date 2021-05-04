@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -87,7 +87,7 @@ section .title::after {
 	width: 100%;
 	z-index: 999;
 	padding: 30px 0;
-	font-family:'Merriweather ', sans-serif;
+	font-family: 'Merriweather ', sans-serif;
 	transition: all 0.3s ease;
 }
 .navbar.sticky {
@@ -167,15 +167,15 @@ section .title::after {
 
 /* home section */
 
-.home{
-    display: flex;
-    background: url("images/i5.jpg") no-repeat center;
+.home {
+	display: flex;
+	background: url("images/i5.jpg") no-repeat center;
 	height: 100vh;
 	color: rgb(151, 118, 228);
 	min-height: 500px;
 	background-size: cover;
 	background-attachment: fixed;
-	font-family: 'Merriweather Sans' ,Josefin+Sans;
+	font-family: 'Merriweather Sans', Josefin+Sans;
 }
 .home .max-width {
 	margin: auto 0 auto 30px;
@@ -296,7 +296,7 @@ section .title::after {
 	transition: color 0.3s ease;
 }
 .interests .serv-content .card:hover i {
-	color:(lightcoral);
+	color: (lightcoral);
 }
 .interests .serv-content .card .text {
 	font-size: 25px;
@@ -558,7 +558,7 @@ footer span .social a:nth-child(1):hover {
 }
 footer span .social a:nth-child(2):hover {
 	color: #e23670;
-	box-shadow: 0 0 15px  #e1306c;
+	box-shadow: 0 0 15px #e1306c;
 	text-shadow: 0 0 15px #e1306c;
 }
 footer span .social a:nth-child(3):hover {
