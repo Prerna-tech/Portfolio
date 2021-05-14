@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 
-* {
+*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -15,14 +15,14 @@ html {
 	width: 10px;
 }
 ::-webkit-scrollbar-track {
-	background: #f1f1f1;
+	background: #8dd5ff;
 }
 ::-webkit-scrollbar-thumb {
-	background: #888;
+	background: rgb(230, 111, 111);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: #555;
+	background: rgb(192, 183, 183);
 }
 
 /* all similar content styling codes */
@@ -87,12 +87,12 @@ section .title::after {
 	width: 100%;
 	z-index: 999;
 	padding: 30px 0;
-	font-family: 'Merriweather ', sans-serif;
+	font-family:'Merriweather ', sans-serif;
 	transition: all 0.3s ease;
 }
 .navbar.sticky {
 	padding: 15px 0;
-	background: rgb(102, 111, 238);
+	background: rgba(93, 19, 211, 0.795);
 }
 .navbar .max-width {
 	display: flex;
@@ -165,17 +165,51 @@ section .title::after {
 	filter: brightness(50%);
 }
 
+/* for header Social Part */
+
+.fa {
+	padding: 600px;
+	font-size: 45px;
+	width: 25px;
+	text-align: center;
+	text-decoration: none
+  }
+  
+fa:hover {
+	opacity: 0.7;
+  }
+  
+.fa-facebook {
+	background:#1da1f2;
+	color: white;
+  }
+.fa-linkedin{
+	background:#1da1f2;
+    color: white;
+	}
+.fa-instagram{
+	background:#1da1f2 ;
+	color: white;
+}
+
+.fa-github{
+	background: #1da1f2;
+	color: white;
+}
+  
+
+
 /* home section */
 
-.home {
-	display: flex;
-	background: url("images/i5.jpg") no-repeat center;
-	height: 100vh;
-	color: rgb(151, 118, 228);
-	min-height: 500px;
+.home{
+    display: flex;
+    background: url("images/Frame203209.jpg") no-repeat center;
+	height: 150vh;
+	color: rgb(0, 0, 0);
+	min-height: 550px;
 	background-size: cover;
 	background-attachment: fixed;
-	font-family: 'Merriweather Sans', Josefin+Sans;
+	font-family: 'Merriweather Sans' ,Josefin+Sans;
 }
 .home .max-width {
 	margin: auto 0 auto 30px;
@@ -205,7 +239,7 @@ section .title::after {
 	margin-top: 20px;
 	font-weight: 400;
 	border-radius: 6px;
-	border: 2px solid rgba(0, 0, 0, 0.918);
+	border: 2px solid rgba(0, 0, 0, 0.918); 
 	transition: all 0.3s ease;
 }
 .home .home-content a:hover {
@@ -296,7 +330,7 @@ section .title::after {
 	transition: color 0.3s ease;
 }
 .interests .serv-content .card:hover i {
-	color: (lightcoral);
+	color:(lightcoral);
 }
 .interests .serv-content .card .text {
 	font-size: 25px;
@@ -558,7 +592,7 @@ footer span .social a:nth-child(1):hover {
 }
 footer span .social a:nth-child(2):hover {
 	color: #e23670;
-	box-shadow: 0 0 15px #e1306c;
+	box-shadow: 0 0 15px  #e1306c;
 	text-shadow: 0 0 15px #e1306c;
 }
 footer span .social a:nth-child(3):hover {
