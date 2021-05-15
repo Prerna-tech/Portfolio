@@ -75,7 +75,7 @@ section .title::after {
 	bottom: -8px;
 	left: 50%;
 	font-size: 20px;
-	color: rgb(181, 0, 252);
+	color: rgb(241, 230, 216);
 	padding: 0 5px;
 	background: lightcoral;
 	transform: translateX(-50%);
@@ -105,7 +105,7 @@ section .title::after {
 	font-weight: 600;
 }
 .navibar .logo a span {
-	color: rgb(102, 111, 238);
+	color: rgb(67, 68, 67);
 	transition: all 0.3s ease;
 }
 .navibar.sticky .logo a span {
@@ -269,7 +269,7 @@ fa:hover {
 	margin: 5px 0;
 }
 .home .home-content .text-3 span {
-	color: rgb(102, 111, 238);
+	color: rgb(242, 255, 129);
 	font-weight: 500;
 }
 .home .home-content a {
